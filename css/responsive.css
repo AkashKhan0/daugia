@@ -1,0 +1,138 @@
+@media (max-width: 860px){
+  .admin_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  .mail_hot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media (max-width: 692px){
+  .mail_hot ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .mail_hot ul li{
+    text-align: center;
+  }
+}
+/* ===============================mail hotline admin button css end  */
+
+@media (max-width: 935px){
+  .lg_hd_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.dau_gia{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.ha_noi{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+}
+
+/* ==========menu bar css  */
+@media (max-width: 1060px){
+  .nav_bar{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav_btn{
+    display: flex;
+    justify-content: center;
+  }
+  #bur_list{
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  #bur_list ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .burger{
+    display: block;
+}
+.dropdownnav-content{
+  position: absolute;
+  left: 55%;
+}
+.dropdownnav1-content{
+  position: absolute;
+  left: 55%;
+}
+.up_card{text-align: center; padding: 5px;}
+}
+@media (max-width: 1050px){
+  .card{width: 45%;}
+}
+@media (max-width: 890px){
+  .card{width: 100%;}
+  .right_card{width: 50%;}
+  .left_sec_card{width: 50%;}
+  .top_btn_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .two_btn_icn, .two_btn_text{width: 100%;}
+}
+@media (max-width: 834px){
+  .left_sec_card{width: 100%;}
+  .right_card{width: 100%;}
+  .full_card_sec{display: flex; flex-direction: column;}
+  .card{width: 90%;}iframe{
+    width: 80%;
+  }
+  .nav_btn{
+    width: 100%;
+}
+}
+@media (max-width: 485px){
+  .card{width: 100%;}iframe{
+    width: 80%;
+  }
+}
+@media (max-width: 1065px){
+.ftr_logo_text, .footer_sec{display: flex; flex-direction: column; text-align: center;}
+  .footer_sec{width: 80%;}
+  .ftr_logo_text, .footer_mdl , .google_map{width: 100%;}
+.mdl_lst{
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+  .logo, .ftr_lg_hdr{width: 100%;}
+  iframe{
+    width: 80%;
+  }
+}
